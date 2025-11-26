@@ -1,0 +1,5 @@
+service android.hardware.copro-service.stm32mpu /vendor/bin/hw/android.hardware.copro-service.stm32mpu
+    interface aidl android.hardware.copro-service.stm32mpu.ICopro/default
+    class hal
+    user system
+    group root system
